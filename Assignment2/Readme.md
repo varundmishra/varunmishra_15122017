@@ -1,0 +1,1 @@
+This bash script takes a file which contains comma separated list of hostnames as an input, connects to the hosts via SSH, returns a prompt to execute a command on those hosts and provides the output of the command for all hosts.

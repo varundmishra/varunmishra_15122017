@@ -1,0 +1,7 @@
+Monolithic Java Application Migration Solution:
+-----------------------------------------------
+
+1) I would choose Amazon EC2 instances to setup Apache Web Server which acts as a reverse proxy for Apache Tomcat and MongoDB.
+2) I would suggest using Amazon SQS as a replacement for ActiveMQ
+3) I would suggest using Amazon RDS for Oracle Backend
+4) I would create Autoscaling Groups for each Tier with a minimum of 2 Instances and an ELB (Elastic Load Balancer) for each of these sets. We can achieve HA and LoadBalancing by this.
